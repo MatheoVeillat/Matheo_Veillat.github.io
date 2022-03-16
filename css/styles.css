@@ -376,17 +376,16 @@ section a{
 		display: none;
 	}
 	.decalage,#decalageemail,#imagegithub, summary, ul, .recrutement, details p, details, summary{
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	details p{
 		font-size: 20px;
 	}
 	#moibg{
-	height: 325px;
-	width: 325px;
-	margin-top: 10%;
-	margin-bottom: 30%;
+	height: 375px;
+	width: 375px;
+	margin-bottom: 35%;
 	}
 	#blockprojet{
 		flex-direction: column;
@@ -422,7 +421,7 @@ section a{
 	margin-bottom: 30%;
 	}
 }
-@media(max-width:800px) {
+@/*media(max-width:800px) {
 	.decalage,#decalageemail,#imagegithub, summary, ul, .recrutement, details p, details, summary{
 		margin-left: 0;
 		margin-right: 0;
@@ -432,8 +431,8 @@ section a{
 	width: 325px;
 	margin-top: 10%;
 	margin-bottom: 27%;
-}
-@media(max-width:1025px) {
+}*/
+/*@media(max-width:1025px) {
 	.decalage,#decalageemail,#imagegithub, summary, ul, .recrutement, details p, details, summary{
 		margin-left: 0%;
 		margin-right: 0;
@@ -460,5 +459,5 @@ section a{
 	#contacte{
 		display: block;
 		margin-left: 20%;
-	}
+	}*/
 }
